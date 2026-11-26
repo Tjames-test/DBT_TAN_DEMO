@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: demo          
+    database: SNOWFLAKE_LEARNING_DB         
+    schema: TANIAJAMES_LOAD_SAMPLE_DATA_FROM_S3 
+    tables:
+      - name: WEATHER_FINAL_TBL
